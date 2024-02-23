@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1 class ='text-info bg-black text-center'>Real taste of Foodie</h1>
+
+
+{% load static %}
+<div class="d-flex row flex-wrap align-items-center pt-5">
+    <div class = "col-4 ps-4">
+        <h2 class = 'text-success'>Real taste of Foodie</h2> <br>
+        <b>Real taste of Foodie is one of the best restaurant in Asia. <br>
+            Here we serve our customers very carefully. Here your can find many delicious food with 100% Pure hygiene. <h4 class = 'text-info pt-5'> You are most welcome to our restaurant with your family or friends</h4></b>
+    </div>
+    <div class = "col-8">
+       
+        <img src="{% static 'images/restaurant.jpg' %}" style = 'width: 90%; height: 100%'>
+    </div>
+</div>
+
+
+{% endblock content %}
